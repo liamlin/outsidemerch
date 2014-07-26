@@ -51,7 +51,7 @@ ALLOWED_HOSTS = (
 # Database settings.
 
 DATABASES = {
-    "default": dj_database_url.config(default="postgresql://"),
+    "default": dj_database_url.config(default="postgresql://localhost"),
 }
 
 
