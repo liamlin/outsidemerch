@@ -4,20 +4,16 @@ from django.contrib import admin
 from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 from django.views import generic
 
-# from rest_framework import routers
 
 admin.autodiscover()
 
-# router = routers.DefaultRouter()
-# urlpatterns = patterns('',
-#     url(r'^$', include(router.urls)),)
-
 urlpatterns = patterns('',
     url(r'^$', 'outsidemerch.views.root', name='root'),
-    url(r'^demo/(?P<current_time>\d+)/', 'outsidemerch.views.root', name='root'),
-    url(r'^stages/', 'outsidemerch.views.stages', name='stages'),
-    url(r'^stage/(?P<stage_id>\d+)/', 'outsidemerch.views.stage', name='stage'),
-    url(r'^stage/(?P<stage_id>\d+)/demo/(?P<current_time>\d+)', 'outsidemerch.views.stage', name='stage_demo'),
+    url(r'^demo/(?P<stage_id>\d)/(?P<current_time>\d+)/', 'outsidemerch.views.root', name='root'),
+    url(r'^demo/(?P<stage_id>\d)/', 'outsidemerch.views.demo_stage', name='demo_stage'),
+    url(r'^demo/(?P<current_time>\d+)/', 'outsidemerch.views.demo_time', name='demo_time'),
+    url(r'^stage/(?P<stage_id>\d)/demo/(?P<current_time>\d+)', 'outsidemerch.views.stage', name='stage_demo'),
+    url(r'^stage/(?P<stage_id>\d)/', 'outsidemerch.views.stage', name='stage'),
 
     url(r'', include('social.apps.django_app.urls', namespace='social')),
     url(r'^o/', include('oauth2_provider.urls', namespace='oauth2_provider')),

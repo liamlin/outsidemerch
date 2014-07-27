@@ -2,33 +2,17 @@
 {% load static %}
 
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Outside Merch - overall listing </title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-<!--
-<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-<script src="js/bootstrap.min.js"></script>
-<script src="js/bootswatch.js"></script>
-    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
-        <link rel="stylesheet" href="css/flatly.css">
-        <link rel="stylesheet" href="css/bootstrap.min.css">
--->
-<link href='http://fonts.googleapis.com/css?family=Cabin:400,500,600,700,400italic' rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="{% static "outsidemerch/css/bootstrap-flatly.css" %}" media="screen">
-    <link rel="stylesheet" href="{% static "outsidemerch/css/om-style.css" %}" media="screen">
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="../bower_components/html5shiv/dist/html5shiv.js"></script>
-      <script src="../bower_components/respond/dest/respond.min.js"></script>
-    <![endif]-->
+
+        <link href='http://fonts.googleapis.com/css?family=Cabin:400,500,600,700,400italic' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="{% static "outsidemerch/css/bootstrap-flatly.css" %}" media="screen">
+        <link rel="stylesheet" href="{% static "outsidemerch/css/om-style.css" %}" media="screen">
 
     </head>
     <body>
@@ -71,34 +55,27 @@
     </div>
     {% endblock %}
 
-
-
 <div style="height:70px;">
 </div>
-
 
       <!-- Content
       ================================================== -->
 
 <div class="container">
+    <div id="out"></div>
     {% block content %}
 	<div class="row">
 
+          <div class="col-lg-12" id="evtscontainer">
 
-
-
-          <div class="col-lg-12">
-          
-          
-          
 <!-- INDIVIDUAL STAGE  ----   ARTIST/TIME  BUTTON -->
             {% if lineups %}
                 {% for stage, lineup in lineups.items %}
-            <div class="bs-component" style="margin-bottom: 15px;">
+            <div class="bs-component" {% if specified_stage and specified_stage == stage %} id="stage-target" {% endif %} style="margin-bottom: 15px;">
               <div class="btn-group btn-group-justified">
 <!-- LEFT SIDE === STAGE  -->
 <!-- LINK TO STAGE PAGE VIEW  -->
-                <a href="#" class="btn btn-default stage-left">{{ stage }}</a>
+                <a href="#" class="btn btn-default stage-left stage-name">{{ stage }}</a>
 <!-- RIGHT SIDE === ARTIST/TIME  -->
 <!-- LINK TO STAGE PAGE VIEW? OR ARTIST STORE?   -->
                 <a href="{{ lineup.0.link }}" class="btn btn-default">{{ lineup.0.artist }}<br><span>{{ lineup.0.time }}</span></a>
@@ -115,8 +92,16 @@
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
     <script src="{% static "outsidemerch/js/bootstrap.min.js" %}"></script>
 
-<!--         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script> -->
     {% block custom_js %}
+    <script type="text/javascript">
+    $(function(){
+        {% if specified_stage %}
+            var $container = $("#evtscontainer");
+            var $target = $("#stage-target").remove().prependTo($container);
+            $target.css('background-color', 'red');
+        {% endif %}
+    });
+    </script>
     {% endblock %}
     </body>
 </html>

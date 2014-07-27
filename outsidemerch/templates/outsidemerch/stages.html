@@ -2,15 +2,12 @@
 {% load static %}
 
 {% block content %}
-	<div onload="moveWindow()" class="row">
+	<div class="row">
 
-<!-- CENTER COLUMN -->
           <div class="col-lg-8">
 
             {% for lineup in lineups %}
-<!-- ANCHOR TIMES -->
-             <a id='{{ lineup.time_start }}' name='{{ lineup.time_start }}'></a>
-<!-- REPEAT LISTING -->        
+             <a id='{% if lineup.current == True %}current_show{% else %} {{ lineup.time_start }} {% endif %}' name='{{ lineup.time_start }}'></a>
             <p class="bs-component stage-store-btn">
               <button type="button" class="btn btn-default btn-lg btn-block stage-store-btn">{{ lineup.artist }}<br>
               <span>{{ lineup.time }} - {{ lineup.stage }}</span>
@@ -26,5 +23,12 @@
 {% endblock %}
 
 {% block custom_js %}
-        <script src="{% static "outsidemerch/js/time-anchor.js" %}"></script>
+        <script type="text/javascript">
+        $(function(){
+            var loc = $("a#current_show").attr("name");
+            if (loc != null)
+                window.location.hash = loc;
+                var $target = $("a#current_show").next().find("button.btn-default").css("background-color", "orange");
+        });
+        </script>
 {% endblock %}
