@@ -1,0 +1,107 @@
+{% extends "outsidemerch/overall.html" %}
+{% load static %}
+
+{% block content %}
+	<div onload="moveWindow()" class="row">
+
+
+
+<!-- LEFT HAND SIDE -- GO TO ANOTHER STAGE -->
+          <div class="col-lg-2">Go Left
+          </div>
+
+
+
+
+<!-- CENTER COLUMN -->
+          <div class="col-lg-8">
+
+<!-- ANCHOR TIMES -->
+             <a id='1200' name='1200'></a>
+   
+
+<!-- REPEAT LISTING -->        
+            <p class="bs-component stage-store-btn">
+              <button type="button" class="btn btn-default btn-lg btn-block stage-store-btn">Rayland Baxter<br>
+              <span>12:00 - 12:40 - Sutro Stage</span>
+              <div class="btn-group btn-group-justified">
+                <a href="#" class="btn  stage-store-btn">Store</a>
+              </div>
+              </button>
+            </p>
+           <a id='1205' name='1205'></a>
+
+            <p class="bs-component stage-store-btn">
+              <button type="button" class="btn btn-default btn-lg btn-block stage-store-btn">Night Terrors of 1927<br>
+              <span>12:00 - 12:40 - Panhandle Stage</span>
+              <div class="btn-group btn-group-justified">
+                <a href="#" class="btn  stage-store-btn">Store</a>
+              </div>
+              </button>
+            </p>
+
+
+           <a id='1210' name='1210'></a>
+           <a id='1215' name='1215'></a>
+           <a id='1220' name='1220'></a>
+           <a id='1225' name='1225'></a>
+
+            <p class="bs-component stage-store-btn">
+              <button type="button" class="btn btn-default btn-lg btn-block stage-store-btn">Shouts!<br>
+              <span>12:00 - 1:30 - The House by Heineken</span>
+              <div class="btn-group btn-group-justified">
+                <a href="#" class="btn  stage-store-btn">Store</a>
+              </div>
+              </button>
+            </p>
+
+            <a id='1230' name='1230'></a>
+           <p class="bs-component stage-store-btn">
+              <button type="button" class="btn btn-default btn-lg btn-block stage-store-btn">The Soul Rebels<br>
+              <span>12:40 - 1:30 - Lands End Stage</span>
+              <div class="btn-group btn-group-justified">
+                <a href="#" class="btn  stage-store-btn">Store</a>
+              </div>
+              </button>
+            </p>
+
+            <a id='1235' name='1235'></a>
+           <p class="bs-component stage-store-btn">
+              <button type="button" class="btn btn-default btn-lg btn-block stage-store-btn">AER<br>
+              <span>12:40 - 1:30 - Twin Peaks Stage</span>
+              <div class="btn-group btn-group-justified">
+                <a href="#" class="btn  stage-store-btn">Store</a>
+              </div>
+              </button>
+            </p>
+
+            <a id='1240' name='1240'></a>
+            <a id='1245' name='1245'></a>
+            <a id='1250' name='1250'></a>
+           <p class="bs-component stage-store-btn">
+              <button type="button" class="btn btn-default btn-lg btn-block stage-store-btn">Garfunkle & Oates and Aparna Nancherla<br>
+              <span>12:45 - 1:45 - The Barbary Stage</span>
+              <div class="btn-group btn-group-justified">
+                <a href="#" class="btn  stage-store-btn">Store</a>
+              </div>
+              </button>
+            </p>
+
+
+
+
+
+
+          </div>
+<!-- RIGHT HAND SIDE -- GO TO ANOTHER STAGE -->
+          <div class="col-lg-2">Go right
+          </div>
+
+
+
+    </div>
+{% endblock %}
+
+{% block custom_js %}
+        <script src="{% static "outsidemerch/js/time-anchor.js" %}"></script>
+{% endblock %}

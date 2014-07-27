@@ -1,0 +1,69 @@
+body {
+	font-family: Cabin, Helvetica, sans-serif;
+}
+
+.btn {
+font-weight: 700;
+white-space: normal;
+text-transform: uppercase;
+}
+
+.btn-default {
+color: #ed5b1e;
+background-color: #45332f;
+border-color: #45332f;
+}
+
+
+.btn-default span {
+	color:#FFF;
+}
+
+.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open > .dropdown-toggle.btn-default {
+color: #45332f;
+background-color: #ed5b1e;
+border-color: #ed5b1e;
+}
+
+.stage-left {
+	background-color: #ed5b1e;
+border-color: #ed5b1e;
+color: #45332f;
+
+}
+
+.navbar-default {
+background-color: #45332F;
+	color:#FFF;
+}
+
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+color: #FFF;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+color: #FFF;
+}
+
+.stage-button {
+	min-height: 80px;
+}
+
+.stage-store-btn, .stage-store-btn:hover, .stage-store-btn:focus,  {
+	border: 1px solid red;
+	background-color: #45332F;
+	color: #ed5b1e;
+	
+}
+
+.stage-store-btn:active {
+	
+}
+
+a.stage-store-btn {
+	color: #fff;
+}
+
+.btn-lg, .btn-group-lg > .btn {
+padding: 18px 27px 1px;
+}

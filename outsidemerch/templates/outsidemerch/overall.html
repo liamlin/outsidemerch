@@ -1,0 +1,166 @@
+{% load staticfiles %}
+{% load static %}
+
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Outside Merch - overall listing </title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+<!--
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+<script src="js/bootstrap.min.js"></script>
+<script src="js/bootswatch.js"></script>
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+        <link rel="stylesheet" href="css/flatly.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+-->
+<link href='http://fonts.googleapis.com/css?family=Cabin:400,500,600,700,400italic' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="{% static "outsidemerch/css/bootstrap-flatly.css" %}" media="screen">
+    <link rel="stylesheet" href="{% static "outsidemerch/css/om-style.css" %}" media="screen">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="../bower_components/html5shiv/dist/html5shiv.js"></script>
+      <script src="../bower_components/respond/dest/respond.min.js"></script>
+    <![endif]-->
+
+    </head>
+    <body>
+
+
+    {% block navbar %}
+      <!-- Navbar
+      ================================================== -->
+    <div class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <a href="{% url "root" %}" class="navbar-brand">OutsideHacks</a>
+          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="navbar-collapse collapse" id="navbar-main">
+          <ul class="nav navbar-nav">
+             <li><a href="{% url "root" %}">Overall</a></li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="themes">Stages <span class="caret"></span></a>
+              <ul class="dropdown-menu" aria-labelledby="themes">
+					<li><a href="{% url "stages" %}">Lands End Stage</a></li>
+					<li><a href="{% url "stages" %}">Sutro Stage</a></li>
+					<li><a href="{% url "stages" %}">Panhandle Stage</a></li>
+					<li><a href="{% url "stages" %}">Twin Peaks Stage</a></li>
+					<li><a href="{% url "stages" %}">The House by Heineken</a></li>
+					<li><a href="{% url "stages" %}">The Barbary</a></li>
+              </ul>
+            </li>
+          </ul>
+
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+              <a href="{% url "root" %}">Help</a>
+            </li>
+          </ul>
+
+        </div>
+      </div>
+    </div>
+    {% endblock %}
+
+
+
+<div style="height:70px;">
+</div>
+
+
+      <!-- Content
+      ================================================== -->
+
+<div class="container">
+    {% block content %}
+	<div class="row">
+
+
+
+
+          <div class="col-lg-12">
+          
+          
+          
+<!-- INDIVIDUAL STAGE  ----   ARTIST/TIME  BUTTON -->
+            <div class="bs-component" style="margin-bottom: 15px;">
+              <div class="btn-group btn-group-justified">
+<!-- LEFT SIDE === STAGE  -->
+<!-- LINK TO STAGE PAGE VIEW  -->
+                <a href="#" class="btn btn-default stage-left">Sutro</a>
+<!-- RIGHT SIDE === ARTIST/TIME  -->
+<!-- LINK TO STAGE PAGE VIEW? OR ARTIST STORE?   -->
+                <a href="#" class="btn btn-default">Rayland Baxter<br><span>12:00 - 12:40</span></a>
+              </div>
+            </div>
+
+
+<!-- REPEAT -->
+
+            <div class="bs-component" style="margin-bottom: 15px;">
+              <div class="btn-group btn-group-justified">
+                <a href="#" class="btn btn-default stage-left">Panhandle</a>
+                <a href="#" class="btn btn-default">Night Terrors of 1927<br><span>12:00 - 12:40</span></a>
+              </div>
+            </div>
+
+            <div class="bs-component" style="margin-bottom: 15px;">
+              <div class="btn-group btn-group-justified">
+                <a href="#" class="btn btn-default stage-left">The House by Heineken</a>
+                <a href="#" class="btn btn-default">Shouts!<br><span>12:00 - 1:30</span></a>
+              </div>
+            </div>
+
+            <div class="bs-component" style="margin-bottom: 15px;">
+              <div class="btn-group btn-group-justified">
+                <a href="#" class="btn btn-default stage-left">Lands End</a>
+                <a href="#" class="btn btn-default">The Soul Rebels<br><span>12:40 - 1:30</span></a>
+              </div>
+            </div>
+
+            <div class="bs-component" style="margin-bottom: 15px;">
+              <div class="btn-group btn-group-justified">
+                <a href="#" class="btn btn-default stage-left">Twin Peaks</a>
+                <a href="#" class="btn btn-default">AER<br><span>12:45 - 1:30</span></a>
+              </div>
+            </div>
+
+            <div class="bs-component" style="margin-bottom: 15px;">
+              <div class="btn-group btn-group-justified">
+                <a href="#" class="btn btn-default stage-left">The Barbary</a>
+                <a href="#" class="btn btn-default">Garfunkle & Oates and Aparna Nancherla<br><span>12:45 - 1:45</span></a>
+              </div>
+            </div>
+
+
+
+
+
+
+
+
+        </div>
+        </div>
+    {% endblock %}
+</div>
+
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="{% static "outsidemerch/js/bootstrap.min.js" %}"></script>
+
+<!--         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script> -->
+    {% block custom_js %}
+    {% endblock %}
+    </body>
+</html>
