@@ -15,7 +15,11 @@
         <link rel="stylesheet" href="{% static "outsidemerch/css/om-style.css" %}" media="screen">
     <style>
         img{
-    width:50%;
+            height:70%;
+            width:70%;
+            display:block;
+            margin-left:auto;
+            margin-right:auto;
 }
     </style>
 
@@ -67,15 +71,39 @@
       ================================================== -->
 
 <div class="container">
-    <div id="out"></div>
+    <div id="out"><img src="{% static "outsidemerch/images/outsidelands2014.png" %}" style="z-index: 9999;"></div>
     {% block content %}
-	<div class="row">
+	<div class="row" style="margin-top: -30px;">
 
-          <div class="col-lg-12" id="evtscontainer">
+          <div class="col-lg-12" id="evtscontainer" style="z-index: -55;">
 
-<!-- INDIVIDUAL STAGE  ----   ARTIST/TIME  BUTTON -->
             {% if lineups %}
                 {% for stage, lineup in lineups.items %}
+                    {% if specified_stage and specified_stage == stage %}
+                    <div class="jumbotron" style="padding:5px; background-color:#7bc5ce; padding-top: 30px;">
+                    <h3 style="margin-top: 8px;padding-left: 5px;">You are now watching:</h3>
+                    <div class="bs-component" {% if specified_stage and specified_stage == stage %} id="stage-target" {% endif %} style="margin-bottom: 15px;">
+              <div class="btn-group btn-group-justified">
+                <a href="#" class="btn btn-default stage-left stage-name" style="font-size: larger">{{ stage }}</a>
+                <a href="{{ lineup.0.link }}" class="btn btn-default" style="font-size: larger">{{ lineup.0.artist }}<br><span>{{ lineup.0.time }}</span></a>
+
+              </div>
+                    <div class='row'>
+                        <div class="col-xs-6">
+                            <img src='{% static 'outsidemerch/images/outside_shirt.png' %}' style="padding-top:15px">
+                        </div>
+                        <div class="col-xs-6"  style="padding-left: 0px;">
+                            <a href="{{ lineup.0.link }}" style="background-color: #FFD75D; text-align: center;margin-top: 20%; border-radius: 20px; border: solid 5px #45332F;" class="btn btn-default stage-left stage-name">Like the artist? Buy merch here.</a>
+                        </div>
+                    </div>
+
+                        </div>
+                        </div>
+                        </div>
+</div>
+                    {% else %}
+
+
             <div class="bs-component" {% if specified_stage and specified_stage == stage %} id="stage-target" {% endif %} style="margin-bottom: 15px;">
               <div class="btn-group btn-group-justified">
 <!-- LEFT SIDE === STAGE  -->
@@ -86,6 +114,8 @@
                 <a href="{{ lineup.0.link }}" class="btn btn-default">{{ lineup.0.artist }}<br><span>{{ lineup.0.time }}</span></a>
               </div>
             </div>
+
+                    {% endif %}
                 {% endfor %}
             {% endif %}
 
@@ -102,13 +132,9 @@
     $(function(){
         {% if specified_stage %}
             var $container = $("#evtscontainer");
-            var $target = $("#stage-target").remove().prependTo($container);
+            var $target = $(".jumbotron").remove().prependTo($container).after("<h3>Now playing at other stages</h3>");
             var currentDiv = $('<div/>', {'class':'jumbotron'});
-            var img = $('<img/>', {'src':'http://cdn.shopify.com/s/files/1/0199/4554/products/MYSTERY_TEE_large.png?v=1358359356', 'class':'img-responsive'})
-            currentDiv.append($target);
-            currentDiv.prepend('<h2>Now Playing</h2>');
-            currentDiv.append(img);
-            $container.prepend(currentDiv);
+            var img = $('<img/>', {'src':'http://cdn.shopify.com/s/files/1/0199/4554/products/MYSTERY_TEE_large.png?v=1358359356', 'class':'img-responsive'});
         {% endif %}
     });
     </script>
