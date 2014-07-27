@@ -4,8 +4,8 @@
             {
                 "date": "2014-08-08", 
                 "time": "8:05 - 9:50", 
-                "time_start": "0805", 
-                "time_end": "0950", 
+                "time_start": "2005", 
+                "time_end": "2150", 
                 "stage": "Lands End"
             }
         ], 
@@ -17,8 +17,8 @@
             {
                 "date": "2014-08-08", 
                 "time": "8:40 - 9:55", 
-                "time_start": "0840", 
-                "time_end": "0955", 
+                "time_start": "2040", 
+                "time_end": "2155", 
                 "stage": "Twin Peaks"
             }
         ], 
@@ -30,8 +30,8 @@
             {
                 "date": "2014-08-08", 
                 "time": "6:20 - 7:20", 
-                "time_start": "0620", 
-                "time_end": "0720", 
+                "time_start": "1820", 
+                "time_end": "1920", 
                 "stage": "Lands End"
             }
         ], 
@@ -43,8 +43,8 @@
             {
                 "date": "2014-08-08", 
                 "time": "6:50 - 7:50", 
-                "time_start": "0650", 
-                "time_end": "0750", 
+                "time_start": "1850", 
+                "time_end": "1950", 
                 "stage": "Twin Peaks"
             }
         ], 
@@ -56,8 +56,8 @@
             {
                 "date": "2014-08-08", 
                 "time": "7:00 - 8:15", 
-                "time_start": "0700", 
-                "time_end": "0815", 
+                "time_start": "1900", 
+                "time_end": "2015", 
                 "stage": "Sutro"
             }
         ], 
@@ -69,8 +69,8 @@
             {
                 "date": "2014-08-08", 
                 "time": "4:50 - 5:50", 
-                "time_start": "0450", 
-                "time_end": "0550", 
+                "time_start": "1650", 
+                "time_end": "1750", 
                 "stage": "Lands End"
             }
         ], 
@@ -82,8 +82,8 @@
             {
                 "date": "2014-08-08", 
                 "time": "5:30 - 6:30", 
-                "time_start": "0530", 
-                "time_end": "0630", 
+                "time_start": "1730", 
+                "time_end": "1830", 
                 "stage": "Sutro"
             }
         ], 
@@ -95,8 +95,8 @@
             {
                 "date": "2014-08-08", 
                 "time": "5:15 - 6:05", 
-                "time_start": "0515", 
-                "time_end": "0605", 
+                "time_start": "1715", 
+                "time_end": "1805", 
                 "stage": "Twin Peaks"
             }
         ], 
@@ -108,8 +108,8 @@
             {
                 "date": "2014-08-08", 
                 "time": "4:00 - 5:00", 
-                "time_start": "0400", 
-                "time_end": "0500", 
+                "time_start": "1600", 
+                "time_end": "1700", 
                 "stage": "Sutro"
             }
         ], 
@@ -121,8 +121,8 @@
             {
                 "date": "2014-08-08", 
                 "time": "2:30 - 3:30", 
-                "time_start": "0230", 
-                "time_end": "0330", 
+                "time_start": "1430", 
+                "time_end": "1530", 
                 "stage": "Sutro"
             }
         ], 
@@ -134,8 +134,8 @@
             {
                 "date": "2014-08-08", 
                 "time": "2:00 - 2:50", 
-                "time_start": "0200", 
-                "time_end": "0250", 
+                "time_start": "1400", 
+                "time_end": "1450", 
                 "stage": "Lands End"
             }
         ], 
@@ -147,8 +147,8 @@
             {
                 "date": "2014-08-08", 
                 "time": "3:20 - 4:20", 
-                "time_start": "0320", 
-                "time_end": "0420", 
+                "time_start": "1520", 
+                "time_end": "1620", 
                 "stage": "Lands End"
             }
         ], 
@@ -160,8 +160,8 @@
             {
                 "date": "2014-08-08", 
                 "time": "3:40 - 4:30", 
-                "time_start": "0340", 
-                "time_end": "0430", 
+                "time_start": "1540", 
+                "time_end": "1630", 
                 "stage": "Twin Peaks"
             }
         ], 
@@ -173,8 +173,8 @@
             {
                 "date": "2014-08-08", 
                 "time": "7:50 - 8:35", 
-                "time_start": "0750", 
-                "time_end": "0835", 
+                "time_start": "1950", 
+                "time_end": "2035", 
                 "stage": "Panhandle"
             }
         ], 
@@ -186,8 +186,8 @@
             {
                 "date": "2014-08-08", 
                 "time": "1:10 - 2:00", 
-                "time_start": "0110", 
-                "time_end": "0200", 
+                "time_start": "1310", 
+                "time_end": "1400", 
                 "stage": "Sutro"
             }
         ], 
@@ -199,8 +199,8 @@
             {
                 "date": "2014-08-08", 
                 "time": "2:10 - 2:55", 
-                "time_start": "0210", 
-                "time_end": "0255", 
+                "time_start": "1410", 
+                "time_end": "1455", 
                 "stage": "Twin Peaks"
             }
         ], 
@@ -213,7 +213,7 @@
                 "date": "2014-08-08", 
                 "time": "12:40 - 1:30", 
                 "time_start": "1240", 
-                "time_end": "0130", 
+                "time_end": "1330", 
                 "stage": "Lands End"
             }
         ], 
@@ -225,8 +225,8 @@
             {
                 "date": "2014-08-08", 
                 "time": "6:05 - 6:45", 
-                "time_start": "0605", 
-                "time_end": "0645", 
+                "time_start": "1805", 
+                "time_end": "1845", 
                 "stage": "Panhandle"
             }
         ], 
@@ -238,8 +238,8 @@
             {
                 "date": "2014-08-08", 
                 "time": "4:30 - 5:10", 
-                "time_start": "0430", 
-                "time_end": "0510", 
+                "time_start": "1630", 
+                "time_end": "1710", 
                 "stage": "Panhandle"
             }
         ], 
@@ -251,8 +251,8 @@
             {
                 "date": "2014-08-08", 
                 "time": "2:55 - 3:35", 
-                "time_start": "0255", 
-                "time_end": "0335", 
+                "time_start": "1455", 
+                "time_end": "1535", 
                 "stage": "Panhandle"
             }
         ], 
@@ -265,7 +265,7 @@
                 "date": "2014-08-08", 
                 "time": "12:45 - 1:30", 
                 "time_start": "1245", 
-                "time_end": "0130", 
+                "time_end": "1330", 
                 "stage": "Twin Peaks"
             }
         ], 
@@ -303,8 +303,8 @@
             {
                 "date": "2014-08-08", 
                 "time": "6:00 - 8:00", 
-                "time_start": "0600", 
-                "time_end": "0800", 
+                "time_start": "1800", 
+                "time_end": "2000", 
                 "stage": "The House by Heineken"
             }
         ], 
@@ -316,8 +316,8 @@
             {
                 "date": "2014-08-08", 
                 "time": "4:30 - 6:00", 
-                "time_start": "0430", 
-                "time_end": "0600", 
+                "time_start": "1630", 
+                "time_end": "1800", 
                 "stage": "The House by Heineken"
             }
         ], 
@@ -329,8 +329,8 @@
             {
                 "date": "2014-08-08", 
                 "time": "3:00 - 4:30", 
-                "time_start": "0300", 
-                "time_end": "0430", 
+                "time_start": "1500", 
+                "time_end": "1630", 
                 "stage": "The House by Heineken"
             }
         ], 
@@ -342,8 +342,8 @@
             {
                 "date": "2014-08-08", 
                 "time": "1:30 - 3:00", 
-                "time_start": "0130", 
-                "time_end": "0300", 
+                "time_start": "1330", 
+                "time_end": "1500", 
                 "stage": "The House by Heineken"
             }
         ], 
@@ -356,7 +356,7 @@
                 "date": "2014-08-08", 
                 "time": "12:00 - 1:30", 
                 "time_start": "1200", 
-                "time_end": "0130", 
+                "time_end": "1330", 
                 "stage": "The House by Heineken"
             }
         ], 
@@ -368,15 +368,15 @@
             {
                 "date": "2014-08-08", 
                 "time": "4:30 - 5:45", 
-                "time_start": "0430", 
-                "time_end": "0545", 
+                "time_start": "1630", 
+                "time_end": "1745", 
                 "stage": "The Barbary"
             }, 
             {
                 "date": "2014-08-10", 
                 "time": "2:30 - 3:45", 
-                "time_start": "0230", 
-                "time_end": "0345", 
+                "time_start": "1430", 
+                "time_end": "1545", 
                 "stage": "The Barbary"
             }
         ], 
@@ -388,8 +388,8 @@
             {
                 "date": "2014-08-08", 
                 "time": "2:30 - 3:45", 
-                "time_start": "0230", 
-                "time_end": "0345", 
+                "time_start": "1430", 
+                "time_end": "1545", 
                 "stage": "The Barbary"
             }
         ], 
@@ -401,8 +401,8 @@
             {
                 "date": "2014-08-08", 
                 "time": "6:15 - 7:15", 
-                "time_start": "0615", 
-                "time_end": "0715", 
+                "time_start": "1815", 
+                "time_end": "1915", 
                 "stage": "The Barbary"
             }
         ], 
@@ -414,15 +414,15 @@
             {
                 "date": "2014-08-08", 
                 "time": "4:30 - 5:45", 
-                "time_start": "0430", 
-                "time_end": "0545", 
+                "time_start": "1630", 
+                "time_end": "1745", 
                 "stage": "The Barbary"
             }, 
             {
                 "date": "2014-08-10", 
                 "time": "2:30 - 3:45", 
-                "time_start": "0230", 
-                "time_end": "0345", 
+                "time_start": "1430", 
+                "time_end": "1545", 
                 "stage": "The Barbary"
             }
         ], 
@@ -434,8 +434,8 @@
             {
                 "date": "2014-08-08", 
                 "time": "2:30 - 3:45", 
-                "time_start": "0230", 
-                "time_end": "0345", 
+                "time_start": "1430", 
+                "time_end": "1545", 
                 "stage": "The Barbary"
             }
         ], 
@@ -447,15 +447,15 @@
             {
                 "date": "2014-08-08", 
                 "time": "4:30 - 5:45", 
-                "time_start": "0430", 
-                "time_end": "0545", 
+                "time_start": "1630", 
+                "time_end": "1745", 
                 "stage": "The Barbary"
             }, 
             {
                 "date": "2014-08-08", 
                 "time": "6:15 - 7:15", 
-                "time_start": "0615", 
-                "time_end": "0715", 
+                "time_start": "1815", 
+                "time_end": "1915", 
                 "stage": "The Barbary"
             }
         ], 
@@ -467,8 +467,8 @@
             {
                 "date": "2014-08-08", 
                 "time": "2:30 - 3:45", 
-                "time_start": "0230", 
-                "time_end": "0345", 
+                "time_start": "1430", 
+                "time_end": "1545", 
                 "stage": "The Barbary"
             }
         ], 
@@ -515,8 +515,8 @@
             {
                 "date": "2014-08-09", 
                 "time": "7:55 - 9:55", 
-                "time_start": "0755", 
-                "time_end": "0955", 
+                "time_start": "1955", 
+                "time_end": "2155", 
                 "stage": "Lands End"
             }
         ], 
@@ -528,8 +528,8 @@
             {
                 "date": "2014-08-09", 
                 "time": "8:40 - 9:55", 
-                "time_start": "0840", 
-                "time_end": "0955", 
+                "time_start": "2040", 
+                "time_end": "2155", 
                 "stage": "Twin Peaks"
             }
         ], 
@@ -541,8 +541,8 @@
             {
                 "date": "2014-08-09", 
                 "time": "6:00 - 7:10", 
-                "time_start": "0600", 
-                "time_end": "0710", 
+                "time_start": "1800", 
+                "time_end": "1910", 
                 "stage": "Lands End"
             }
         ], 
@@ -554,8 +554,8 @@
             {
                 "date": "2014-08-09", 
                 "time": "7:00 - 8:10", 
-                "time_start": "0700", 
-                "time_end": "0810", 
+                "time_start": "1900", 
+                "time_end": "2010", 
                 "stage": "Sutro"
             }
         ], 
@@ -567,8 +567,8 @@
             {
                 "date": "2014-08-09", 
                 "time": "6:55 - 7:55", 
-                "time_start": "0655", 
-                "time_end": "0755", 
+                "time_start": "1855", 
+                "time_end": "1955", 
                 "stage": "Twin Peaks"
             }
         ], 
@@ -580,8 +580,8 @@
             {
                 "date": "2014-08-09", 
                 "time": "4:30 - 5:30", 
-                "time_start": "0430", 
-                "time_end": "0530", 
+                "time_start": "1630", 
+                "time_end": "1730", 
                 "stage": "Lands End"
             }
         ], 
@@ -593,8 +593,8 @@
             {
                 "date": "2014-08-09", 
                 "time": "5:15 - 6:05", 
-                "time_start": "0515", 
-                "time_end": "0605", 
+                "time_start": "1715", 
+                "time_end": "1805", 
                 "stage": "Twin Peaks"
             }
         ], 
@@ -606,8 +606,8 @@
             {
                 "date": "2014-08-09", 
                 "time": "3:00 - 4:00", 
-                "time_start": "0300", 
-                "time_end": "0400", 
+                "time_start": "1500", 
+                "time_end": "1600", 
                 "stage": "Lands End"
             }
         ], 
@@ -619,8 +619,8 @@
             {
                 "date": "2014-08-09", 
                 "time": "5:30 - 6:30", 
-                "time_start": "0530", 
-                "time_end": "0630", 
+                "time_start": "1730", 
+                "time_end": "1830", 
                 "stage": "Sutro"
             }
         ], 
@@ -632,8 +632,8 @@
             {
                 "date": "2014-08-09", 
                 "time": "3:40 - 4:30", 
-                "time_start": "0340", 
-                "time_end": "0430", 
+                "time_start": "1540", 
+                "time_end": "1630", 
                 "stage": "Twin Peaks"
             }
         ], 
@@ -645,8 +645,8 @@
             {
                 "date": "2014-08-09", 
                 "time": "1:40 - 2:30", 
-                "time_start": "0140", 
-                "time_end": "0230", 
+                "time_start": "1340", 
+                "time_end": "1430", 
                 "stage": "Lands End"
             }
         ], 
@@ -658,8 +658,8 @@
             {
                 "date": "2014-08-09", 
                 "time": "7:55 - 8:40", 
-                "time_start": "0755", 
-                "time_end": "0840", 
+                "time_start": "1955", 
+                "time_end": "2040", 
                 "stage": "Panhandle"
             }
         ], 
@@ -671,8 +671,8 @@
             {
                 "date": "2014-08-09", 
                 "time": "4:00 - 5:00", 
-                "time_start": "0400", 
-                "time_end": "0500", 
+                "time_start": "1600", 
+                "time_end": "1700", 
                 "stage": "Sutro"
             }
         ], 
@@ -685,7 +685,7 @@
                 "date": "2014-08-09", 
                 "time": "12:20 - 1:10", 
                 "time_start": "1220", 
-                "time_end": "0110", 
+                "time_end": "1310", 
                 "stage": "Lands End"
             }
         ], 
@@ -697,8 +697,8 @@
             {
                 "date": "2014-08-09", 
                 "time": "2:30 - 3:30", 
-                "time_start": "0230", 
-                "time_end": "0330", 
+                "time_start": "1430", 
+                "time_end": "1530", 
                 "stage": "Sutro"
             }
         ], 
@@ -710,8 +710,8 @@
             {
                 "date": "2014-08-09", 
                 "time": "6:05 - 6:50", 
-                "time_start": "0605", 
-                "time_end": "0650", 
+                "time_start": "1805", 
+                "time_end": "1850", 
                 "stage": "Panhandle"
             }
         ], 
@@ -723,8 +723,8 @@
             {
                 "date": "2014-08-09", 
                 "time": "2:05 - 2:55", 
-                "time_start": "0205", 
-                "time_end": "0255", 
+                "time_start": "1405", 
+                "time_end": "1455", 
                 "stage": "Twin Peaks"
             }
         ], 
@@ -736,8 +736,8 @@
             {
                 "date": "2014-08-09", 
                 "time": "4:30 - 5:10", 
-                "time_start": "0430", 
-                "time_end": "0510", 
+                "time_start": "1630", 
+                "time_end": "1710", 
                 "stage": "Panhandle"
             }
         ], 
@@ -749,8 +749,8 @@
             {
                 "date": "2014-08-09", 
                 "time": "1:10 - 2:00", 
-                "time_start": "0110", 
-                "time_end": "0200", 
+                "time_start": "1310", 
+                "time_end": "1400", 
                 "stage": "Sutro"
             }
         ], 
@@ -775,8 +775,8 @@
             {
                 "date": "2014-08-09", 
                 "time": "2:55 - 3:35", 
-                "time_start": "0255", 
-                "time_end": "0335", 
+                "time_start": "1455", 
+                "time_end": "1535", 
                 "stage": "Panhandle"
             }
         ], 
@@ -788,8 +788,8 @@
             {
                 "date": "2014-08-09", 
                 "time": "1:25 - 2:05", 
-                "time_start": "0125", 
-                "time_end": "0205", 
+                "time_start": "1325", 
+                "time_end": "1405", 
                 "stage": "Panhandle"
             }
         ], 
@@ -802,7 +802,7 @@
                 "date": "2014-08-09", 
                 "time": "12:40 - 1:25", 
                 "time_start": "1240", 
-                "time_end": "0125", 
+                "time_end": "1325", 
                 "stage": "Twin Peaks"
             }
         ], 
@@ -827,8 +827,8 @@
             {
                 "date": "2014-08-09", 
                 "time": "6:00 - 7:45", 
-                "time_start": "0600", 
-                "time_end": "0745", 
+                "time_start": "1800", 
+                "time_end": "1945", 
                 "stage": "The House by Heineken"
             }
         ], 
@@ -840,8 +840,8 @@
             {
                 "date": "2014-08-09", 
                 "time": "4:30 - 6:00", 
-                "time_start": "0430", 
-                "time_end": "0600", 
+                "time_start": "1630", 
+                "time_end": "1800", 
                 "stage": "The House by Heineken"
             }
         ], 
@@ -853,8 +853,8 @@
             {
                 "date": "2014-08-09", 
                 "time": "3:00 - 4:30", 
-                "time_start": "0300", 
-                "time_end": "0430", 
+                "time_start": "1500", 
+                "time_end": "1630", 
                 "stage": "The House by Heineken"
             }
         ], 
@@ -866,8 +866,8 @@
             {
                 "date": "2014-08-09", 
                 "time": "1:30 - 3:00", 
-                "time_start": "0130", 
-                "time_end": "0300", 
+                "time_start": "1330", 
+                "time_end": "1500", 
                 "stage": "The House by Heineken"
             }
         ], 
@@ -880,7 +880,7 @@
                 "date": "2014-08-09", 
                 "time": "12:00 - 1:30", 
                 "time_start": "1200", 
-                "time_end": "0130", 
+                "time_end": "1330", 
                 "stage": "The House by Heineken"
             }
         ], 
@@ -892,15 +892,15 @@
             {
                 "date": "2014-08-09", 
                 "time": "4:00 - 5:00", 
-                "time_start": "0400", 
-                "time_end": "0500", 
+                "time_start": "1600", 
+                "time_end": "1700", 
                 "stage": "The Barbary"
             }, 
             {
                 "date": "2014-08-10", 
                 "time": "12:45 - 1:45", 
                 "time_start": "1245", 
-                "time_end": "0145", 
+                "time_end": "1345", 
                 "stage": "The Barbary"
             }
         ], 
@@ -918,7 +918,7 @@
                 "date": "2014-08-09", 
                 "time": "12:45 - 1:45", 
                 "time_start": "1245", 
-                "time_end": "0145", 
+                "time_end": "1345", 
                 "stage": "The Barbary"
             }
         ], 
@@ -930,8 +930,8 @@
             {
                 "date": "2014-08-10", 
                 "time": "8:05 - 9:35", 
-                "time_start": "0805", 
-                "time_end": "0935", 
+                "time_start": "2005", 
+                "time_end": "2135", 
                 "stage": "Lands End"
             }
         ], 
@@ -943,8 +943,8 @@
             {
                 "date": "2014-08-10", 
                 "time": "8:25 - 9:35", 
-                "time_start": "0825", 
-                "time_end": "0935", 
+                "time_start": "2025", 
+                "time_end": "2135", 
                 "stage": "Twin Peaks"
             }
         ], 
@@ -956,8 +956,8 @@
             {
                 "date": "2014-08-10", 
                 "time": "6:10 - 7:20", 
-                "time_start": "0610", 
-                "time_end": "0720", 
+                "time_start": "1810", 
+                "time_end": "1920", 
                 "stage": "Lands End"
             }
         ], 
@@ -969,8 +969,8 @@
             {
                 "date": "2014-08-10", 
                 "time": "6:50 - 8:00", 
-                "time_start": "0650", 
-                "time_end": "0800", 
+                "time_start": "1850", 
+                "time_end": "2000", 
                 "stage": "Sutro"
             }
         ], 
@@ -982,8 +982,8 @@
             {
                 "date": "2014-08-10", 
                 "time": "4:40 - 5:40", 
-                "time_start": "0440", 
-                "time_end": "0540", 
+                "time_start": "1640", 
+                "time_end": "1740", 
                 "stage": "Lands End"
             }
         ], 
@@ -995,8 +995,8 @@
             {
                 "date": "2014-08-10", 
                 "time": "6:40 - 7:40", 
-                "time_start": "0640", 
-                "time_end": "0740", 
+                "time_start": "1840", 
+                "time_end": "1940", 
                 "stage": "Twin Peaks"
             }
         ], 
@@ -1008,8 +1008,8 @@
             {
                 "date": "2014-08-10", 
                 "time": "5:20 - 6:20", 
-                "time_start": "0520", 
-                "time_end": "0620", 
+                "time_start": "1720", 
+                "time_end": "1820", 
                 "stage": "Sutro"
             }
         ], 
@@ -1021,8 +1021,8 @@
             {
                 "date": "2014-08-10", 
                 "time": "5:05 - 5:55", 
-                "time_start": "0505", 
-                "time_end": "0555", 
+                "time_start": "1705", 
+                "time_end": "1755", 
                 "stage": "Twin Peaks"
             }
         ], 
@@ -1034,8 +1034,8 @@
             {
                 "date": "2014-08-10", 
                 "time": "3:10 - 4:10", 
-                "time_start": "0310", 
-                "time_end": "0410", 
+                "time_start": "1510", 
+                "time_end": "1610", 
                 "stage": "Lands End"
             }
         ], 
@@ -1047,8 +1047,8 @@
             {
                 "date": "2014-08-10", 
                 "time": "1:50 - 2:40", 
-                "time_start": "0150", 
-                "time_end": "0240", 
+                "time_start": "1350", 
+                "time_end": "1440", 
                 "stage": "Lands End"
             }
         ], 
@@ -1060,8 +1060,8 @@
             {
                 "date": "2014-08-10", 
                 "time": "3:50 - 4:50", 
-                "time_start": "0350", 
-                "time_end": "0450", 
+                "time_start": "1550", 
+                "time_end": "1650", 
                 "stage": "Sutro"
             }
         ], 
@@ -1073,8 +1073,8 @@
             {
                 "date": "2014-08-10", 
                 "time": "3:30 - 4:20", 
-                "time_start": "0330", 
-                "time_end": "0420", 
+                "time_start": "1530", 
+                "time_end": "1620", 
                 "stage": "Twin Peaks"
             }
         ], 
@@ -1086,8 +1086,8 @@
             {
                 "date": "2014-08-10", 
                 "time": "2:30 - 3:20", 
-                "time_start": "0230", 
-                "time_end": "0320", 
+                "time_start": "1430", 
+                "time_end": "1520", 
                 "stage": "Sutro"
             }
         ], 
@@ -1099,8 +1099,8 @@
             {
                 "date": "2014-08-10", 
                 "time": "7:40 - 8:25", 
-                "time_start": "0740", 
-                "time_end": "0825", 
+                "time_start": "1940", 
+                "time_end": "2025", 
                 "stage": "Panhandle"
             }
         ], 
@@ -1112,8 +1112,8 @@
             {
                 "date": "2014-08-10", 
                 "time": "1:10 - 2:00", 
-                "time_start": "0110", 
-                "time_end": "0200", 
+                "time_start": "1310", 
+                "time_end": "1400", 
                 "stage": "Sutro"
             }
         ], 
@@ -1125,8 +1125,8 @@
             {
                 "date": "2014-08-10", 
                 "time": "5:55 - 6:35", 
-                "time_start": "0555", 
-                "time_end": "0635", 
+                "time_start": "1755", 
+                "time_end": "1835", 
                 "stage": "Panhandle"
             }
         ], 
@@ -1138,8 +1138,8 @@
             {
                 "date": "2014-08-10", 
                 "time": "2:00 - 2:45", 
-                "time_start": "0200", 
-                "time_end": "0245", 
+                "time_start": "1400", 
+                "time_end": "1445", 
                 "stage": "Twin Peaks"
             }
         ], 
@@ -1151,8 +1151,8 @@
             {
                 "date": "2014-08-10", 
                 "time": "2:45 - 3:25", 
-                "time_start": "0245", 
-                "time_end": "0325", 
+                "time_start": "1445", 
+                "time_end": "1525", 
                 "stage": "Panhandle"
             }
         ], 
@@ -1165,7 +1165,7 @@
                 "date": "2014-08-10", 
                 "time": "12:30 - 1:20", 
                 "time_start": "1230", 
-                "time_end": "0120", 
+                "time_end": "1320", 
                 "stage": "Lands End"
             }
         ], 
@@ -1177,8 +1177,8 @@
             {
                 "date": "2014-08-10", 
                 "time": "4:20 - 5:00", 
-                "time_start": "0420", 
-                "time_end": "0500", 
+                "time_start": "1620", 
+                "time_end": "1700", 
                 "stage": "Panhandle"
             }
         ], 
@@ -1191,7 +1191,7 @@
                 "date": "2014-08-10", 
                 "time": "12:40 - 1:20", 
                 "time_start": "1240", 
-                "time_end": "0120", 
+                "time_end": "1320", 
                 "stage": "Twin Peaks"
             }
         ], 
@@ -1216,8 +1216,8 @@
             {
                 "date": "2014-08-10", 
                 "time": "1:20 - 2:00", 
-                "time_start": "0120", 
-                "time_end": "0200", 
+                "time_start": "1320", 
+                "time_end": "1400", 
                 "stage": "Panhandle"
             }
         ], 
@@ -1242,8 +1242,8 @@
             {
                 "date": "2014-08-10", 
                 "time": "5:30 - 8:00", 
-                "time_start": "0530", 
-                "time_end": "0800", 
+                "time_start": "1730", 
+                "time_end": "2000", 
                 "stage": "The House by Heineken"
             }
         ], 
@@ -1255,8 +1255,8 @@
             {
                 "date": "2014-08-10", 
                 "time": "4:00 - 5:30", 
-                "time_start": "0400", 
-                "time_end": "0530", 
+                "time_start": "1600", 
+                "time_end": "1730", 
                 "stage": "The House by Heineken"
             }
         ], 
@@ -1268,8 +1268,8 @@
             {
                 "date": "2014-08-10", 
                 "time": "3:00 - 4:00", 
-                "time_start": "0300", 
-                "time_end": "0400", 
+                "time_start": "1500", 
+                "time_end": "1600", 
                 "stage": "The House by Heineken"
             }
         ], 
@@ -1282,7 +1282,7 @@
                 "date": "2014-08-10", 
                 "time": "12:00 - 3:00", 
                 "time_start": "1200", 
-                "time_end": "0300", 
+                "time_end": "1500", 
                 "stage": "The House by Heineken"
             }
         ], 
@@ -1294,15 +1294,15 @@
             {
                 "date": "2014-08-10", 
                 "time": "4:30 - 6:00", 
-                "time_start": "0430", 
-                "time_end": "0600", 
+                "time_start": "1630", 
+                "time_end": "1800", 
                 "stage": "The Barbary"
             }, 
             {
                 "date": "2014-08-10", 
                 "time": "6:30 - 8:00", 
-                "time_start": "0630", 
-                "time_end": "0800", 
+                "time_start": "1830", 
+                "time_end": "2000", 
                 "stage": "The Barbary"
             }
         ], 

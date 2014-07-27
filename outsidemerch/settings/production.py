@@ -127,7 +127,7 @@ SEND_BROKEN_LINK_EMAILS = False
 
 # Locale settings.
 
-TIME_ZONE = "UTC"
+TIME_ZONE = "US/Pacific"
 
 LANGUAGE_CODE = "en-us"
 

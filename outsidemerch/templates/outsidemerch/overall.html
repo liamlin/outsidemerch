@@ -40,7 +40,7 @@
     <div class="navbar navbar-default navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
-          <a href="{% url "root" %}" class="navbar-brand">OutsideHacks</a>
+          <a href="{% url "root" %}" class="navbar-brand">Outside Merch</a>
           <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
@@ -49,16 +49,13 @@
         </div>
         <div class="navbar-collapse collapse" id="navbar-main">
           <ul class="nav navbar-nav">
-             <li><a href="{% url "root" %}">Overall</a></li>
+             <li><a href="{% url "root" %}">Home</a></li>
             <li class="dropdown">
               <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="themes">Stages <span class="caret"></span></a>
               <ul class="dropdown-menu" aria-labelledby="themes">
-					<li><a href="{% url "stages" %}">Lands End Stage</a></li>
-					<li><a href="{% url "stages" %}">Sutro Stage</a></li>
-					<li><a href="{% url "stages" %}">Panhandle Stage</a></li>
-					<li><a href="{% url "stages" %}">Twin Peaks Stage</a></li>
-					<li><a href="{% url "stages" %}">The House by Heineken</a></li>
-					<li><a href="{% url "stages" %}">The Barbary</a></li>
+                    {% for stage in stages %}
+					<li><a href="{% url "stage" forloop.counter %}">{{ stage }}</a></li>
+                    {% endfor %}
               </ul>
             </li>
           </ul>
@@ -95,61 +92,20 @@
           
           
 <!-- INDIVIDUAL STAGE  ----   ARTIST/TIME  BUTTON -->
+            {% if lineups %}
+                {% for stage, lineup in lineups.items %}
             <div class="bs-component" style="margin-bottom: 15px;">
               <div class="btn-group btn-group-justified">
 <!-- LEFT SIDE === STAGE  -->
 <!-- LINK TO STAGE PAGE VIEW  -->
-                <a href="#" class="btn btn-default stage-left">Sutro</a>
+                <a href="#" class="btn btn-default stage-left">{{ stage }}</a>
 <!-- RIGHT SIDE === ARTIST/TIME  -->
 <!-- LINK TO STAGE PAGE VIEW? OR ARTIST STORE?   -->
-                <a href="#" class="btn btn-default">Rayland Baxter<br><span>12:00 - 12:40</span></a>
+                <a href="{{ lineup.0.link }}" class="btn btn-default">{{ lineup.0.artist }}<br><span>{{ lineup.0.time }}</span></a>
               </div>
             </div>
-
-
-<!-- REPEAT -->
-
-            <div class="bs-component" style="margin-bottom: 15px;">
-              <div class="btn-group btn-group-justified">
-                <a href="#" class="btn btn-default stage-left">Panhandle</a>
-                <a href="#" class="btn btn-default">Night Terrors of 1927<br><span>12:00 - 12:40</span></a>
-              </div>
-            </div>
-
-            <div class="bs-component" style="margin-bottom: 15px;">
-              <div class="btn-group btn-group-justified">
-                <a href="#" class="btn btn-default stage-left">The House by Heineken</a>
-                <a href="#" class="btn btn-default">Shouts!<br><span>12:00 - 1:30</span></a>
-              </div>
-            </div>
-
-            <div class="bs-component" style="margin-bottom: 15px;">
-              <div class="btn-group btn-group-justified">
-                <a href="#" class="btn btn-default stage-left">Lands End</a>
-                <a href="#" class="btn btn-default">The Soul Rebels<br><span>12:40 - 1:30</span></a>
-              </div>
-            </div>
-
-            <div class="bs-component" style="margin-bottom: 15px;">
-              <div class="btn-group btn-group-justified">
-                <a href="#" class="btn btn-default stage-left">Twin Peaks</a>
-                <a href="#" class="btn btn-default">AER<br><span>12:45 - 1:30</span></a>
-              </div>
-            </div>
-
-            <div class="bs-component" style="margin-bottom: 15px;">
-              <div class="btn-group btn-group-justified">
-                <a href="#" class="btn btn-default stage-left">The Barbary</a>
-                <a href="#" class="btn btn-default">Garfunkle & Oates and Aparna Nancherla<br><span>12:45 - 1:45</span></a>
-              </div>
-            </div>
-
-
-
-
-
-
-
+                {% endfor %}
+            {% endif %}
 
         </div>
         </div>

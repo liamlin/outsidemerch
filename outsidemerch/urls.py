@@ -14,7 +14,10 @@ admin.autodiscover()
 
 urlpatterns = patterns('',
     url(r'^$', 'outsidemerch.views.root', name='root'),
+    url(r'^demo/(?P<current_time>\d+)/', 'outsidemerch.views.root', name='root'),
     url(r'^stages/', 'outsidemerch.views.stages', name='stages'),
+    url(r'^stage/(?P<stage_id>\d+)/', 'outsidemerch.views.stage', name='stage'),
+    url(r'^stage/(?P<stage_id>\d+)/demo/(?P<current_time>\d+)', 'outsidemerch.views.stage', name='stage_demo'),
 
     url(r'', include('social.apps.django_app.urls', namespace='social')),
     url(r'^o/', include('oauth2_provider.urls', namespace='oauth2_provider')),
