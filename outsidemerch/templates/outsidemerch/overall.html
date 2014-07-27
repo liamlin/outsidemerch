@@ -13,6 +13,11 @@
         <link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="{% static "outsidemerch/css/bootstrap-flatly.css" %}" media="screen">
         <link rel="stylesheet" href="{% static "outsidemerch/css/om-style.css" %}" media="screen">
+    <style>
+        img{
+    width:50%;
+}
+    </style>
 
     </head>
     <body>
@@ -98,7 +103,12 @@
         {% if specified_stage %}
             var $container = $("#evtscontainer");
             var $target = $("#stage-target").remove().prependTo($container);
-            $target.css('background-color', 'red');
+            var currentDiv = $('<div/>', {'class':'jumbotron'});
+            var img = $('<img/>', {'src':'http://cdn.shopify.com/s/files/1/0199/4554/products/MYSTERY_TEE_large.png?v=1358359356', 'class':'img-responsive'})
+            currentDiv.append($target);
+            currentDiv.prepend('<h2>Now Playing</h2>');
+            currentDiv.append(img);
+            $container.prepend(currentDiv);
         {% endif %}
     });
     </script>
