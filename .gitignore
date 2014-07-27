@@ -1,6 +1,7 @@
 # Ignore PyCharm worksapce.xml and tasks.xml
 workspace.xml
 tasks.xml
+outsidemerch.iml
 
 #.DS_Store
 .DS_Store
