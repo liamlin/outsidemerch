@@ -45,6 +45,7 @@ ALLOWED_HOSTS = (
     "{HEROKU_APP_NAME}.herokuapp.com".format(
         HEROKU_APP_NAME = HEROKU_APP_NAME,
     ),
+    "www.outsidemerch.com",
 )
 
 
