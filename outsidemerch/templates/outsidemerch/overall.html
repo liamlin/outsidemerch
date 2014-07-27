@@ -71,16 +71,16 @@
       ================================================== -->
 
 <div class="container">
-    <div id="out"><img src="{% static "outsidemerch/images/outsidelands2014.png" %}" style="z-index: 9999;"></div>
+    <div id="out"><img src="{% static "outsidemerch/images/outsidelands2014.png" %}"></div>
     {% block content %}
-	<div class="row" style="margin-top: -30px;">
+	<div class="row">
 
-          <div class="col-lg-12" id="evtscontainer" style="z-index: -55;">
+          <div class="col-lg-12" id="evtscontainer">
 
             {% if lineups %}
                 {% for stage, lineup in lineups.items %}
                     {% if specified_stage and specified_stage == stage %}
-                    <div class="jumbotron" style="padding:5px; background-color:#7bc5ce; padding-top: 30px;">
+                    <div class="jumbotron" style="padding:5px; background-color:#7bc5ce; padding-top: 10px;">
                     <h3 style="margin-top: 8px;padding-left: 5px;">You are now watching:</h3>
                     <div class="bs-component" {% if specified_stage and specified_stage == stage %} id="stage-target" {% endif %} style="margin-bottom: 15px;">
               <div class="btn-group btn-group-justified">
@@ -90,7 +90,7 @@
               </div>
                     <div class='row'>
                         <div class="col-xs-6">
-                            <img src='{% static 'outsidemerch/images/outside_shirt.png' %}' style="padding-top:15px">
+                            <a href="{{ lineup.0.link }}"><img src='{% static 'outsidemerch/images/outside_shirt.png' %}' style="padding-top:15px"></a>
                         </div>
                         <div class="col-xs-6"  style="padding-left: 0px;">
                             <a href="{{ lineup.0.link }}" style="background-color: #FFD75D; text-align: center;margin-top: 20%; border-radius: 20px; border: solid 5px #45332F;" class="btn btn-default stage-left stage-name">Like the artist? Buy merch here.</a>
